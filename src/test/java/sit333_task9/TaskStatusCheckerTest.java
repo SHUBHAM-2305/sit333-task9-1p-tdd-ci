@@ -20,7 +20,7 @@ public class TaskStatusCheckerTest {
 
         String result = checker.checkTaskStatus(true, false, false);
 
-        assertEquals("Submitted", result);
+        assertEquals("Submitted Wrong", result);
     }
 
     @Test
